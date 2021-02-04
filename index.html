@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css " href="style.css" </head>
+
+<body>
+
+    <div class="form">
+        <form>
+            <h1>SignUp</h1>
+
+            <input class="input-box" id="fname" type="text" placeholder="Enter first name" required>
+            <br>
+
+            <input class="input-box" id="lname" type="text" placeholder="Enter last name" required>
+            <br>
+
+            <input class="input-box" id="email" type="email" placeholder="Enter email" required>
+            <br>
+
+            <input class="input-box" id="passwd" type="password" placeholder="Enter password" required>
+            <br>
+
+            <label for="bdate">Enter date of birth</label>
+            <input class="input-box" type="date" id="bdate" placeholder="Enter date of birth" required>
+            <br>
+            <div class="radio">
+                <input class="input-box" type="radio" id="male" name="gender">
+                <label for="male">Male</label><br>
+                <input class="input-box" type="radio" id="female" name="gender">
+                <label for="female">Female</label><br>
+                <input class="input-box" type="radio" id="other" name="gender">
+                <label for="other">Other</label>
+            </div>
+            <hr>
+
+            <p><span><input type="checkbox" required></span>  I agree to the <a href="#">terms and conditions</a>.</p>
+
+
+            <input class="signup-button" id="submit" type="submit" value="Submit">
+        </form>
+
+    </div>
+
+</body>
+
+</html>
