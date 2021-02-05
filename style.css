@@ -20,26 +20,29 @@ body {
       justify-content: space-around;
       align-items:center;
   }
+
 .signup-button {
-    background-color:rgba(56, 115, 241, 0.349);
+    /* background-color:rgba(56, 115, 241, 0.349); */
+    background-color: steelblue;
+    color: whitesmoke;
+    font-weight: 500;
     border-radius: 10px;
 }
+
 .signup-button:hover {
     opacity: 0.5;
-    padding: 0 3px;
+    padding: 1px 8px;
     cursor: pointer;
 }
+
 .input-box {
     padding: 15px;
     margin: 5px 0 20px 0;
     border: solid 1px;
     border-radius: 10px;
     background: #f1f1f1;
-  
-    
 }
+
 .input-box:hover {
     opacity: 0.7;
-    /* cursor: grabbing; */
-   
 }
