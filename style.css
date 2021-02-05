@@ -11,6 +11,7 @@ body {
    padding: 20px;
    margin: 2% auto;
    text-align: center;
+   border: solid 1px black;
 }
 
 .radio {
